@@ -31,7 +31,6 @@ typedef set<pair<long long int,long long int>> sp_ll;
 #define forr(a,b,c) for(ll (c)=(a);(i)>=(b);(c)--)
 #define rep1(s) for(auto &it:(s))
 #define rep2(s) for(auto it=(s).begin();it!=(s).end();it++)
-
 vector<ll> str_p(string data){
     v_ll trav;
     ll i;
