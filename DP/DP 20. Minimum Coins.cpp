@@ -73,7 +73,6 @@ ll str_to_in(string s)
     geek >> x;
     return x;
 }
-
 ll sum_v(v_ll v1){
     ll sum=0;
     forn(0,v1.size(),i){
