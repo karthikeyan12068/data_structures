@@ -117,7 +117,7 @@ bool ret(ll n,ll t,ll sum,v_ll &v1,mp_ll &dp){
        }
        return false;
    }
-   //cout<<sum<<" "<<t<<"\n";
+   
    bool incl=ret(n-1,t-v1[n],sum+v1[n],v1,dp);
    bool nincl=ret(n-1,t,sum,v1,dp);
    if(incl==true || nincl==true){
